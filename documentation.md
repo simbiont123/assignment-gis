@@ -224,6 +224,7 @@ JSON:
                   55.7470046
                ],
                "comment: ... (skratene kvoli setreniu miesta v tejto dokumentacii)"
+            ]
          ]
       },
       "properties":{  
