@@ -18,10 +18,8 @@ Build a map-based application, which lets the user see geo-based data on a map a
 
 ## My project
 
-Fill in (either in English, or in Slovak):
+**Application description**: `Aplikácia pre vyhľadávanie múzeí a galérií v Moskve a blízkom okolí`
 
-**Application description**: `<fill in>`
+**Data source**: `open street maps`
 
-**Data source**: `<fill in>`
-
-**Technologies used**: `<fill in>`
+**Technologies used**: `ruby, ruby on rails, jquery, leaflet, postgis`

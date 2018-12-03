@@ -1,0 +1,95 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Ubuntu;
+}
+
+#map {
+  height: 80%;
+}
+
+.navbar-margin-bottom {
+  opacity: 0.9;
+  margin-bottom: 0;
+  position: relative;
+  max-height: 50px;
+}
+
+li{
+  font-size: medium;
+}
+
+p{
+  color: #666666;
+  padding: 25%;
+  &:hover {
+    color:white;
+  }
+}
+
+.leaflet-top .leaflet-control {
+  margin-top: 80px;
+}
+
+#range, #range2, #range3{
+  border-radius: 5px;
+  margin: 10px;
+  width: 25%;
+}
+
+.meters{
+  color: white;
+}
+
+#home {
+  left: -10%;
+}
+
+#clear {
+  left: -80%;
+}
+
+#polygon {
+  left: -30%;
+}
+
+#line {
+  left: -65%;
+}
+
+#table-of-contents-navigation {
+  width: 100%; /* Optional */
+  /* border-collapse: collapse; */
+  border-spacing: 0;
+  border: 2px solid black;
+}
+
+#table-of-contents-navigation tbody,
+#table-of-contents-navigation thead { display: block; }
+
+thead tr th {
+  height: 30px;
+  line-height: 30px;
+  /*text-align: left;*/
+}
+
+#table-of-contents-navigation tbody {
+  height: 100px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+tbody { border-top: 2px solid black; }
+
+tbody td, thead th {
+  width: 1200px; /* Optional */
+  border-right: 1px solid black;
+}
+
+tbody td:last-child, thead th:last-child {
+  border-right: none;
+}
